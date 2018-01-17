@@ -1,0 +1,54 @@
+//------------------------------- locations.h  ---------------------------------
+
+/***************************************************************************
+                            -  Description
+                             -------------------
+    Begin                : 4 Feb, 2004
+    Copyright            : (C) 2012 by Simo
+    E-Mail               : simo@furrydolphin.net
+    Version              : 1.0.0
+ **************************************************************************/
+
+/***************************************************************************
+ *                                                                         *
+ *   This program is free software; you can redistribute it and/or modify  *
+ *   it under the terms of the GNU General Public License as published by  *
+ *   the Free Software Foundation; either version 2 of the License, or     *
+ *   (at your option) any later version.                                   *
+ *                                                                         *
+ *                                                                         *
+ *   If software can be free, why can't dolphins?                          *
+ *                                                                         *
+ ***************************************************************************/
+
+/*
+       Note: This file contains the locations of the various application
+             support files. It is created at configure time. DO NOT EDIT!
+*/
+
+#ifndef LOCS_H
+#define LOCS_H
+
+//                          Circuit Diagrams: Matching Networks
+
+#define CAPDIV_PIC       "@prefix@/@PACKAGE@-@VERSION@/Schemos/CapacitorDivider.gif"
+#define L_HIZ_I_PIC      "@prefix@/@PACKAGE@-@VERSION@/Schemos/HiZ-LNet-1.gif"
+#define L_HIZ_II_PIC     "@prefix@/@PACKAGE@-@VERSION@/Schemos/HiZ-LNet-2.gif"
+#define L_LOZ_I_PIC      "@prefix@/@PACKAGE@-@VERSION@/Schemos/LoZ-LNet-1.gif"
+#define L_LOZ_II_PIC     "@prefix@/@PACKAGE@-@VERSION@/Schemos/LoZ-LNet-2.gif"
+#define PI_NET_PIC       "@prefix@/@PACKAGE@-@VERSION@/Schemos/Pi-Network.gif"
+#define TWOCAP_L_I_PIC   "@prefix@/@PACKAGE@-@VERSION@/Schemos/Series-C.gif"
+#define TWOCAP_L_II_PIC  "@prefix@/@PACKAGE@-@VERSION@/Schemos/Shunt-C.gif"
+#define T_NET_PIC        "@prefix@/@PACKAGE@-@VERSION@/Schemos/T-Network.gif"
+
+//                                Support Files
+
+#define INTROSCREEN   "@prefix@/@PACKAGE@-@VERSION@/Schemos/NandFWelcomeScreen.gif"
+#define FREE_ME       "@prefix@/@PACKAGE@-@VERSION@/Schemos/FreeMe.gif"
+#define IMAGE_DIR     "@prefix@/@PACKAGE@-@VERSION@/Schemos/"
+#define BROWSER_PATHS "@prefix@/@PACKAGE@-@VERSION@/etc/browserpaths.cfg"
+#define DOCPATH       " @prefix@/@PACKAGE@-@VERSION@/Documents/index.html"
+
+#endif
+
+//------------------------------- locations.h  ---------------------------------
